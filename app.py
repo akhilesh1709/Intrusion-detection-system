@@ -52,7 +52,7 @@ def main():
     """)
 
     # Add download button for the software
-    software_path = r"D:\Intrusion detection system\zeroshield.exe"  # Update this path
+    software_path = "zeroshield.exe"  # Update this path
     if os.path.exists(software_path):
         with open(software_path, "rb") as file:
             st.download_button(
