@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 def preprocess_data(df):
+
     # Handle missing values
     missing_columns = ['Protocol', 'Timestamp', 'Fwd URG Flags', 'Bwd Header Len', 'ECE Flag Cnt', 'Subflow Bwd Byts', 'Init Fwd Win Byts', 'Fwd Act Data Pkts', 'Fwd Seg Size Min', 'Active Max']
     
